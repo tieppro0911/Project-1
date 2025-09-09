@@ -395,3 +395,43 @@ a {
   background: var(--primary-color);
   cursor: default;
 }
+/* ============Features============ */
+.feature {
+  margin-top: 135px;
+  padding: 65px 0;
+}
+.feature .body {
+  display: flex;
+  justify-content: space-between;
+}
+.feature .images {
+  display: flex;
+  gap: 30px;
+}
+.feature .images img {
+  width: 270px;
+  height: 405px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+.feature .lower {
+  margin-top: 34px;
+}
+.feature .content {
+  width: 41%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.feature .desc {
+  margin-top: 16px;
+  color: #5f5b53;
+  font-size: 1.6rem;
+  line-height: 1.75; /* 175% */
+}
+.feature .cta {
+  margin-top: 32px;
+  width: 137px;
+  height: 50px;
+  background: var(--primary-color);
+}
