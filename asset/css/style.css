@@ -395,7 +395,7 @@ a {
   background: var(--primary-color);
   cursor: default;
 }
-/* ============Features============ */
+/* ============Features 1============ */
 .feature {
   margin-top: 135px;
   padding: 65px 0;
@@ -434,4 +434,18 @@ a {
   width: 137px;
   height: 50px;
   background: var(--primary-color);
+}
+/* ============Features 2============ */
+.feature-2nd {
+  margin-top: 70px;
+}
+.feature-2nd .body {
+  flex-direction: row-reverse;
+}
+.feature-2nd .content {
+  width: 49%;
+}
+.feature-2nd .images img {
+  width: 470px;
+  height: 440px;
 }
